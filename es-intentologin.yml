@@ -1,5 +1,5 @@
 server:
-  port: 8062
+  port: 8080
   
 # CONECCION A BASE DE DATOS
 spring:

@@ -1,18 +1,7 @@
 server:
-  port: 8065  
-# CONECCION A BASE DE DATOS
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: admin
-    driver-class-name: org.postgresql.Driver
-# Hibernate ddl auto (create, create-drop, validate, update)
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      jdbc:
-        lob:
-          non_contextual_creation: true
+  port: 8065
+
+uri:
+  es-valoresConfigurables: http://localhost:8063
+  es-usuario: http://localhost:8064
+  es-intentosLogin: http://localhost:8062
